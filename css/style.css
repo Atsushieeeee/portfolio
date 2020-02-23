@@ -804,6 +804,21 @@ li {
     width: 100%;
   }
 
+  .modal_content_right_img_up{
+    display: none;
+  }
+  
+  .modal_content_right_img_down{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  
+  .modal_content_right_img_down img{
+    width: 100%;
+    margin-top: 5px;
+  }
+  
   .modal_content_text{
     font-size: 13px;
   }
